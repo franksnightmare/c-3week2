@@ -10,11 +10,13 @@ template <typename Needle, typename ...Stack>
 class Type
 {
 	// Generic case: no Needle found
-	template <size_t index, typename Other, typename ...Stacker>
+	template <size_t index, typename Other, 
+	    typename ...Stacker>
 	struct TypeIdx
 	{
 		public:
-			enum {located = TypeIdx<index + 1, Stacker...>::located};
+			enum {located = TypeIdx<index + 1, 
+				    Stacker...>::located};
 	};
 	
 	// Exit case: Needle found

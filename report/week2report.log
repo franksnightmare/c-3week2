@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.30)  2 FEB 2017 14:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.30)  2 FEB 2017 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -237,29 +237,29 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 (./src/a9/type.h [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2]) (./src/a13/main.cc) [3] (./src/a13/main.ih) (./src/a13/adder.add.cc)
-(./src/a13/adder.h) [4] (./src/a13/adder.ih) (./src/a13/adder.value.cc)
-(./src/a13/arithmetic.h [5] [6] [7]) (./src/a13/arithmetic.ih)
-(./src/a13/binopsbase.h) (./src/a13/binopsbase.ih) [8] (./src/a14/main.cc)
-(./src/a14/main.ih) (./src/a14/operations.h [9]) (./src/a14/operations.ih)
-(./src/a14/binopsbase.h [10]) (./src/a14/binopsbase.ih) [11] (./week2report.aux
-) ) 
+[2]) (./src/a10/main.cc) (./src/a10/type.h [3] [4]) (./src/a13/main.cc [5])
+(./src/a13/main.ih) (./src/a13/adder.add.cc) (./src/a13/adder.h [6])
+(./src/a13/adder.ih) (./src/a13/adder.value.cc) (./src/a13/arithmetic.h
+[7] [8] [9]) (./src/a13/arithmetic.ih) (./src/a13/binopsbase.h)
+(./src/a13/binopsbase.ih) [10] (./src/a14/main.cc) (./src/a14/main.ih)
+(./src/a14/operations.h [11]) (./src/a14/operations.ih) (./src/a14/binopsbase.h
+[12]) (./src/a14/binopsbase.ih) [13] (./week2report.aux) ) 
 Here is how much of TeX's memory you used:
- 3618 strings out of 493917
- 51219 string characters out of 6157787
- 206475 words of memory out of 5000000
- 6780 multiletter control sequences out of 15000+600000
+ 3626 strings out of 493917
+ 51324 string characters out of 6157787
+ 207475 words of memory out of 5000000
+ 6783 multiletter control sequences out of 15000+600000
  15705 words of font info for 37 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  37i,6n,58p,237b,1489s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb>
-Output written on week2report.pdf (11 pages, 54299 bytes).
+{/usr/share/texlive/t
+exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type
+1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on week2report.pdf (13 pages, 56733 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

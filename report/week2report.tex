@@ -1,0 +1,80 @@
+\documentclass[11pt]{article}
+
+\usepackage{times}
+\usepackage[english]{babel}
+
+% -----------------------------------------------
+% especially use this for you code
+% -----------------------------------------------
+
+\usepackage{courier}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+\definecolor{Gray}{gray}{0.95}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{language=C++,
+	basicstyle = \normalsize\ttfamily,   % the size and fonts that are used
+	tabsize = 2,                    % sets default tabsize
+	breaklines = true,              % sets automatic line breaking
+	keywordstyle=\color{blue}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	commentstyle=\color{mygreen}\ttfamily,
+	numbers=left,
+	keepspaces=true,
+	showspaces=false,
+	showstringspaces=false,
+}
+
+\begin{document}
+
+\title{Programming in C/C++ \\
+       Exercises set one: class templates
+}
+\date{\today}
+\author{Christiaan Steenkist \\
+Jaime Betancor Valado \\
+Remco Bos \\
+}
+
+\maketitle
+\section*{Exercise 9, Needle fishing}
+We made a function that returns the place of the first template class in a haystack of classes.
+
+\subsection*{Code listings}
+\lstinputlisting[caption = main.cc]{src/a9/main.cc}
+\lstinputlisting[caption = type.h]{src/a9/type.h}
+
+\section*{Exercise 13, Binary operators}
+We made a class that overloads binary operators
+
+\subsection*{Code listings}
+\lstinputlisting[caption = main.cc]{src/a13/main.cc}
+\lstinputlisting[caption = main.ih]{src/a13/main.ih}
+\lstinputlisting[caption = adder.add.cc]{src/a13/adder.add.cc}
+\lstinputlisting[caption = adder.h]{src/a13/adder.h}
+\lstinputlisting[caption = adder.ih]{src/a13/adder.ih}
+\lstinputlisting[caption = adder.value.cc]{src/a13/adder.value.cc}
+\lstinputlisting[caption = arithmetic.h]{src/a13/arithmetic.h}
+\lstinputlisting[caption = arithmetic.ih]{src/a13/arithmetic.ih}
+\lstinputlisting[caption = binopsbase.h]{src/a13/binopsbase.h}
+\lstinputlisting[caption = binopsbase.ih]{src/a13/binopsbase.ih}
+
+\section*{Exercise 14, Generic variadic template }
+We changed the class BinopsBase to a variadic template class using a set of int argument.
+
+\subsection*{Code listings}
+\lstinputlisting[caption = main.cc]{src/a14/main.cc}
+\lstinputlisting[caption = main.ih]{src/a14/main.ih}
+\lstinputlisting[caption = operations.h]{src/a14/operations.h}
+\lstinputlisting[caption = operations.ih]{src/a14/operations.ih}
+\lstinputlisting[caption = binopsbase.h]{src/a14/binopsbase.h}
+\lstinputlisting[caption = binopsbase.ih]{src/a14/binopsbase.ih}
+
+\end{document}
